@@ -1,18 +1,13 @@
-/* index.css */
-
-/* Reset default styles */
 body, h1, p {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
 }
 
-/* Set background color */
 body {
     background-color: #f2f2f2;
 }
 
-/* Center content */
 .container {
     display: flex;
     justify-content: center;
@@ -20,7 +15,6 @@ body {
     height: 100vh;
 }
 
-/* Style heading */
 h1 {
     font-size: 36px;
     color: #333;
@@ -28,14 +22,12 @@ h1 {
     text-align: center;
 }
 
-/* Style paragraph */
 p {
     font-size: 18px;
     color: #666;
     text-align: center;
 }
 
-/* Style buttons */
 .button {
     display: inline-block;
     padding: 12px 24px;
@@ -52,7 +44,6 @@ p {
     background-color: #555;
 }
 
-/* Dark mode styles */
 body.dark-mode {
     background-color: #333;
 }
